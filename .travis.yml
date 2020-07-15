@@ -1,6 +1,6 @@
 language: cpp
 install:
-   sudo apt-get install -y gdal-dev
+   sudo apt-get install -y libgdal-dev
 script:
   - if [[ "${COVERITY_SCAN_BRANCH}" == 1 ]];
     then
