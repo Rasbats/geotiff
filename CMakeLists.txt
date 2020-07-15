@@ -16,6 +16,7 @@ file(GLOB PROJECT_HEADERS include/*.h include/*.hpp)
 include_directories(BEFORE ../include
                     include
                     ${GDAL_INCLUDE_DIR})
+                    
 # Retrieve git commit information, forward it to compilation time
 exec_program(
     "git"
