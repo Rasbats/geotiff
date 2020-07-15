@@ -5,7 +5,7 @@ set(CMAKE_COLOR_MAKEFILE ON)
 project(geotiff_test)
 
 # Looking for GDAL;: https://cmake.org/cmake/help/v3.0/module/FindGDAL.html
-find_package(GDAL 2.2 REQUIRED)
+find_package(GDAL REQUIRED)
 message(STATUS "GDAL library status:")
 #message(STATUS "    version: ${GDAL_version}") # FindGDAL.cmake does not provide VERSION info for cmake < 3.13
 message(STATUS "    libraries: ${GDAL_LIBRARY}")
