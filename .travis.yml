@@ -26,6 +26,23 @@ addons:
     packages:
       - gcc-6
       - g++-6
+      - libproj-dev
+      - libgeos-dev
+      - libspatialite-dev
+      - libgdal-dev
+      - gdal-bin
+      - pkg-config
+  homebrew:
+    packages:
+      - pkg-config
+      - gdal
+      - netcdf
+      - sqlite
+      - curl
+      - libgit2
+      - udunits
+    update: true
+
 
 # Set encrypted variable 'GitHub_auth_token' in Travis repo settings to deploy packages
 # for tagged commits to GitHub Releases.
